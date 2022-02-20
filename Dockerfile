@@ -1,4 +1,4 @@
-FROM nextcloud:23-apache
+FROM nextcloud:23.0.0-apache
 
 LABEL description="apache with nextcloud, logrotate and supervisord" \
       maintainer="merzi"
