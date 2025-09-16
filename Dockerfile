@@ -5,7 +5,7 @@ LABEL description="apache with nextcloud, logrotate and supervisord" \
 
 RUN apt-get update && apt-get dist-upgrade -y \
     && apt-get install -y supervisor logrotate procps smbclient \
-    && apt-get install -y --no-install-recommends libmagickcore-6.q16-6-extra \
+    && apt-get install -y --no-install-recommends libmagickcore-7.q16-10-extra \
   && apt-get autoremove -y \
   && apt-get clean \
   && rm -rf /tmp/* /var/lib/apt/lists/* /var/cache/debconf/*-old \
