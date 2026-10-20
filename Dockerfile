@@ -1,4 +1,4 @@
-FROM nextcloud:35.0.1-apache
+FROM nextcloud:35.0.2-apache
 
 LABEL description="apache with nextcloud, logrotate and supervisord" \
       maintainer="merzi"
